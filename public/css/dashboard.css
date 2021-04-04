@@ -1,0 +1,86 @@
+/*Box*/
+div.box1 {
+  padding: 25px;
+  box-shadow: 0px 5px 5px rgba(0, 100, 255, 0.1);
+  background: #fff;
+  margin-left: 8vw;
+  margin-right: 8vw;
+  border-radius: 15px;
+}
+
+h1.box-heading {
+  /*font-family: 'Inter', sans-serif;*/
+  padding: 1%;
+  padding-left: 5%;
+  font-size: 35px;
+  font-weight: bold;
+  color: #454B69;
+  letter-spacing: -1px;
+}
+
+div.box-text {
+  margin-top: 4px;
+  /*font-family: 'Inter', sans-serif;*/
+  font-weight: normal;
+  font-size: 16px;
+  color: #0c0f12;
+}
+
+div.update-spacing{
+  height: 30vh;
+}
+
+@media only screen and (max-width: 777px) {
+  div.update-spacing{
+    height: 50vh;
+  }
+}
+
+/*Accounr Info*/
+
+.account-photo {
+  width: 28%;
+  margin-left: 30%;
+}
+
+.account-info {
+  text-align: left;
+  font-size: 1.6rem;
+  line-height: 1.5;
+  font-weight: 400;
+  margin-top: auto;
+  margin-bottom: auto;
+  word-wrap: break-word;
+}
+
+/*Events*/
+div.event-row{
+  display: inline-block;
+  width: 100%;
+}
+
+div.event-name{
+  margin-left: 1vw;
+  float: left;
+  font-size: 24px;
+  font-weight: 500;
+}
+
+@media only screen and (max-width: 777px) {
+  div.event-name {
+    margin-left: 3vw;
+  }
+}
+
+div.event-time{
+  margin-right: 1vw;
+  float: right;
+  font-size: 24px;
+  font-weight: 500;
+}
+
+div.rulebook{
+  font-size: 24px;
+  text-align: center;
+  font-weight: 500;
+}
